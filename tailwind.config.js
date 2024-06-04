@@ -11,6 +11,9 @@ module.exports = {
         '1/2': '50%',
         '1/4': '25%',
       },
+      colors: {
+        'def': '#28cd56',
+      },
     },
   },
   plugins: [],

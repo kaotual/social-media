@@ -6,16 +6,55 @@
     <link rel="stylesheet" href="src/output.css">
     <style>
         .html {
-            font-size: 1px
+            font-size: 1px;
+            font-family: 'Poppins';
         }
     </style>
 </head>
 <body class="bg-gray-400 flex justify-center">
     
-    <div class="bg-white w-[375px] h-[812px]">
-        <div class="bg-def w-[45px] h-[45px] mt-[26px] ml-[25px] rounded-md flex justify-center">
+    <div class="bg-white w-[375px] h-[812px] flex flex-col">
+        <div class="bg-def w-[45px] h-[45px] mt-[26px] ml-[25px] mb-[37px] rounded-md flex justify-center items-center">
             <img src="images/ArrowIcon.svg" alt="" class="w-[18px] h-[8px]">
         </div>
+        <p class="text-[#1D1D20] font-semibold text-[40px] flex justify-center">Hello Again!</p>
+        <p class="text-[#4A4A4A] font-regular text-[14px] flex justify-center mb-[42px]">Sign in to your account</p>
+
+        <div class="flex flex-col ml-[25px] mb-[54px] w-[325px] h-[193px]"> <!--form-->
+            <div class="w-[325px] h-[69px] mb-[18px] border-def border-[1.5px] rounded-md">
+                <p class="text-def ml-[18px] mt-[15px] mb-[3px] font-regular text-[12px]">Email address</p>
+                <p class="text-[#1A1B23] ml-[18px] font-medium text-[14px]">info@yourmail.com</p>
+            </div>
+            <div class="w-[325px] h-[69px] border-[#EEEEEE] border-[1px] rounded-md">
+                <p class="font-regular text-[14px] text-[#C4C3C3] ml-[18px] mt-[26px]">Enter your password</p>
+            </div>
+            <p class="text-def underline underline-offset-1 font-regular text-[12px] mt-[19px]">Forgot your password?</p>
+        </div>
+
+        <div class="flex justify-center items-center rounded-md bg-def ml-[25px] mb-[27px] w-[325px] h-[58px]"> <!--sign in-->
+            <p class="text-white font-medium text-[14px]">Sign in</p>
+        </div>
+
+        <div class="flex items-center ml-[25px] mb-[14px]"> <!--or with-->
+            <img src="images/Dots.svg" alt="" class="mr-[14px]">
+            <p class="font-medium text-[12px] text-[#818181]">Or with</p>
+            <img src="images/Dots.svg" alt="" class="ml-[14px]">
+        </div>
+
+        <div class="border-[#EEEEEE] border-2 w-[325px] h-[58px] flex items-center ml-[25px] mb-[12px] rounded-md">
+            <img src="images/GoogleLogo.svg" alt="" class="ml-[86px] mr-[4.5px]">
+            <p class="text-[#231D25] font-medium text-[14px]">Sign in with Google</p>
+        </div>
+        <div class="border-[#EEEEEE] border-2 w-[325px] h-[58px] flex items-center ml-[25px] mb-[29px] rounded-md">
+            <img src="images/TwitterLogo.svg" alt="" class="ml-[86px] mr-[4.5px]">
+            <p class="text-[#231D25] font-medium text-[14px]">Sign in with Twitter</p>
+        </div>
+
+        <div class="flex ml-[86px]">
+            <p class="text-[#818181] font-regular text-[12px] mr-[4px]">Don’t have account? Let’s </p>
+            <p class="text-def underline underline-offset-1 font-regular text-[12px]">Sign up</p>
+        </div>
+
     </div>
 
 </body>
